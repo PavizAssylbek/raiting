@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Raiting} from './component'
 
 function App() {
+
+  const obj = {
+    reviewCount: 4.0,
+    overallRating: 223,
+    rates: {
+      one: 186,
+      two: 18,
+      three: 12,
+      four: 5,
+      five: 2
+    }
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Raiting data={obj} />
     </div>
   );
 }

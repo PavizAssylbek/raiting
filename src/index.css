@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.raiting {
+  width: 375px;
+  height: 824px;
+  padding: 80px 40px 70px;
+  background: #372554;
+  border-radius: 12px;
+}
+.raiting-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.raiting-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 122px;
+  color: #fff;
+  margin: 0;
+}
+.raiting-title label {
+  font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: rgba(255, 255, 255, 0.45);
+}
+.raiting-stars {
+  margin: 15px 0 25px;
+}
+.raiting-stars__img {
+  margin: 0 5px;
+}
+.raiting-overallRating {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.raiting-progress {
+  margin-top: 20px;
+}
+.raiting-block {
+  margin-bottom: 50px;
+}
+.raiting-block__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+p,span {
+  margin: 0;
+  color: #fff;
+}
